@@ -44,3 +44,8 @@
 # 概率论
 
 ## 联合概率 概率的基本准则
+
+```
+machine Learning CS229    http://cs229.stanford.edu/
+machine learning foundation https://class.coursera.org/ntumlone-001
+```
