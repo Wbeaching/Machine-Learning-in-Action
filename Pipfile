@@ -1,0 +1,13 @@
+[[source]]
+name = "pypi"
+url = "http://pypi.douban.com/simple"
+verify_ssl = false
+
+[dev-packages]
+
+[packages]
+numpy = "*"
+scikit-learn = "*"
+
+[requires]
+python_version = "3.7"
