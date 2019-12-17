@@ -79,6 +79,12 @@
    4. fmi评价法 1
    5. 轮廓系数评价法，畸变程度最大
    6. Calinski-harabasz 指数评价法。最大
+3. 回归
+   1. 平均绝对误差。 0. Mean_absolute_error
+   2. 均方误差：0 mean_squared_error
+   3. 中值绝对误差：0。median.absolute_error
+   4. 可解释方差值，1 explained_variance_score
+   5. R^ 2值。1 r2_score
 
 
 
@@ -107,6 +113,8 @@
 
 #### 分类算法
 
+
+
 1. 逻辑回归  函数: LogisticRegression 模块：linear_model
 2. 支持向量机 SVC, svm
 3. k最近邻分类 KNeightborsClassifier , neighbors
@@ -114,4 +122,26 @@
 5. 分类决策树 DecisionTreeClassifiler tree 
 6. 随机森林 RandomForestClassifiler ensemble
 7. 梯度提升树. GradientBoostingClassifier ensemble
+
+
+
+#### 回归算法
+
+| 模块名称     | 函数名称                   | 算法名称       |
+| ------------ | -------------------------- | -------------- |
+| Linear_model | LinearRegression           | 线形回归       |
+| svm          | SVR                        | 支持向量回归   |
+| neighbors    | KneighborsRegression       | 最近邻回归     |
+| tree         | DescisionTreeRegression    | 决策树回归     |
+| ensemble     | RandomForestRegression     | 随机森林回归   |
+| ensemble     | GradientBoostingRegression | 梯度提升回归树 |
+
+
+
+1. 分类和回归的主要区别：在于分类的算法的标签时离散的，回归算法的标签时连续的
+2. 回归算法在 交通，金融，物流，社交 都能发挥巨大的作用
+
+
+
+
 
